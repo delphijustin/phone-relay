@@ -15,7 +15,7 @@ if(currentState){
   tone(8,512);  // switch off tone
 }
 delay(2048);// wait anout 2 seconds
-if(digitalRead(12)==LOW){ // if phone os active
+if(digitalRead(12)==LOW){ // if phone is active
   delay(2048);// wait 2 seconds
   tone(8,256);// update tone
   delay(2048);//wait another 2 seconds
